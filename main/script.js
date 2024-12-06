@@ -15,7 +15,6 @@ function appendOperator(operator) {
     display.value += operator;
   }
 }
-
 function calculate() {
   try {
     display.value = eval(display.value);
